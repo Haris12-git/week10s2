@@ -15,6 +15,6 @@ jobs:
          echo "Follwing is the informnation about the cloned Repo"
          echo "Repository Name :${{github.repository}}"
          echo "Repository Owner :${{github.owner}}"
-         git brach
+         git branch
          git log
          git config --local --list
